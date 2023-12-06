@@ -2256,7 +2256,7 @@
   margin-top: 0;
   margin-bottom: 0;
   font-family: Novecento, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.2;
 }
@@ -2912,6 +2912,11 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.bold-text-89 {
+  background-color: #562075;
+  border-radius: 4px;
 }
 
 @media screen and (min-width: 1280px) {
