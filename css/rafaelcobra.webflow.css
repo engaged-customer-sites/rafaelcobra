@@ -70,9 +70,10 @@
 
 .brix---full-width-image {
   width: 100%;
-  height: 90%;
+  height: 100%;
   max-width: 100%;
   object-fit: cover;
+  flex: 0 auto;
 }
 
 .brix---hero-full-width-right-hero-v5 {
@@ -2843,6 +2844,76 @@
   color: #211f54;
 }
 
+.image-25-1 {
+  border-radius: 10px;
+}
+
+.div-block-72 {
+  border-radius: 11px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+}
+
+.slider-desktop {
+  background-color: #222;
+  border-radius: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: block;
+}
+
+.div-block-73 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.slider-mobile {
+  background-color: #222;
+  border-radius: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: none;
+}
+
+.image-26 {
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.image-27 {
+  height: 300px;
+  display: block;
+}
+
+.slide-2 {
+  object-fit: fill;
+  position: relative;
+}
+
+.image-28 {
+  aspect-ratio: auto;
+  display: block;
+}
+
+.image-29 {
+  object-fit: fill;
+  display: inline-block;
+  position: static;
+}
+
+.image-26-1, .image-26-2, .image-26-3, .image-26-4 {
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 @media screen and (min-width: 1280px) {
   .section-3 {
     padding-top: 30px;
@@ -3916,6 +3987,23 @@
     margin-top: 0;
     padding: 32px 24px 40px;
   }
+
+  .div-block-72 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .column-8 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .div-block-73 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3933,8 +4021,16 @@
     display: none;
   }
 
-  .brix---btn-secondary, .brix---btn-primary {
+  .brix---btn-secondary {
     width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 17px;
+    line-height: 19px;
+  }
+
+  .brix---btn-primary {
+    width: 90%;
     padding-top: 18px;
     padding-bottom: 18px;
     font-size: 17px;
@@ -4234,7 +4330,7 @@
   }
 
   .brix---heading-h2-size-3 {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
   }
 
@@ -4290,7 +4386,7 @@
 
   .brix---cta-v8-section {
     padding-top: 72px;
-    padding-bottom: 392px;
+    padding-bottom: 40px;
   }
 
   .brix---heading-h2-size-3s-copy {
@@ -4530,7 +4626,7 @@
   }
 
   .brix---paragraph-default-9 {
-    font-size: 17px;
+    font-size: 25px;
     line-height: 28px;
   }
 
@@ -4551,6 +4647,28 @@
 
   .bold-text-88 {
     font-size: .9em;
+  }
+
+  .slider-desktop {
+    display: none;
+  }
+
+  .slider-mobile {
+    display: block;
+  }
+
+  .image-26 {
+    height: 180px;
+    text-align: left;
+    object-fit: contain;
+    margin-top: 66px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .image-26-1, .image-26-2, .image-26-3, .image-26-4 {
+    height: 300px;
   }
 }
 
