@@ -972,7 +972,7 @@
   margin-top: 0;
   margin-bottom: 0;
   font-family: Montserrat, sans-serif;
-  font-size: 30px;
+  font-size: 42px;
   font-weight: 700;
   line-height: 66px;
 }
@@ -2919,6 +2919,81 @@
   border-radius: 4px;
 }
 
+.brix---heading-h1-size-5 {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: Novecento, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 43px;
+}
+
+.brix---paragraph-default-10 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: Neue, sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.text-span, .italic-text {
+  color: #c29d40;
+}
+
+.f-h1-heading-5 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: -.04em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Novecento, sans-serif;
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+.f-paragraph-large-5 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  font-family: Neuehaasdisplayroman, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.brix---heading-h1-size-6 {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 66px;
+}
+
+.bold-text-90 {
+  font-size: 30px;
+}
+
+.brix---paragraph-default-11, .brix---paragraph-default-12, .brix---paragraph-default-13 {
+  margin-bottom: 0;
+  font-family: Neuehaasdisplayroman, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.boldblack-copy-2 {
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+  font-weight: 900;
+}
+
 @media screen and (min-width: 1280px) {
   .section-3 {
     padding-top: 30px;
@@ -3339,6 +3414,20 @@
   .brix---heading-h2-size-7 {
     font-size: 30px;
     line-height: 46px;
+  }
+
+  .brix---heading-h1-size-5 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .f-h1-heading-5 {
+    font-size: 32px;
+  }
+
+  .brix---heading-h1-size-6 {
+    font-size: 32px;
+    line-height: 60px;
   }
 }
 
@@ -4009,6 +4098,23 @@
     align-items: center;
     display: flex;
   }
+
+  .brix---heading-h1-size-5 {
+    margin-bottom: 12px;
+    font-size: 36px;
+    line-height: 35px;
+  }
+
+  .f-h1-heading-5 {
+    margin-top: 0;
+    font-size: 36px;
+  }
+
+  .brix---heading-h1-size-6 {
+    margin-bottom: 12px;
+    font-size: 38px;
+    line-height: 46px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4674,6 +4780,40 @@
 
   .image-26-1, .image-26-2, .image-26-3, .image-26-4 {
     height: 300px;
+  }
+
+  .brix---heading-h1-size-5 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 33px;
+  }
+
+  .brix---paragraph-default-10 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .f-h1-heading-5 {
+    font-size: 30px;
+  }
+
+  .text-span-2, .text-span-3 {
+    font-size: 20px;
+  }
+
+  .brix---heading-h1-size-6 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 37px;
+  }
+
+  .bold-text-90 {
+    font-size: 24px;
+  }
+
+  .brix---paragraph-default-11, .brix---paragraph-default-12, .brix---paragraph-default-13 {
+    font-size: 17px;
+    line-height: 28px;
   }
 }
 
